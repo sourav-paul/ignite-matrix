@@ -8,7 +8,7 @@ namespace IgniteMatrix
         public string field;
         public string key;
         public Meta meta;
-        public List<object> totals;
+        public List<decimal?> totals;
         public string type;
     }
 
@@ -31,6 +31,13 @@ namespace IgniteMatrix
         public Meta meta;
         public List<decimal?> totals;
         public string type;
-        public List<List<object>> values;
+        public List<List<decimal?>> values;
+    }
+
+    public class ESS
+    {
+        public decimal EbitMargin;
+        public decimal ShareOfWallet;
+        public decimal Spend;
     }
 }
