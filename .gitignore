@@ -2,3 +2,6 @@ backend-asp/IgniteMatrix/.vs/
 backend-asp/IgniteMatrix/IgniteMatrix/obj/
 backend-asp/IgniteMatrix/IgniteMatrix/bin/
 backend-asp/IgniteMatrix/.idea/
+frontend-vjs/.parcel-cache/
+frontend-vjs/dist/
+frontend-vjs/node_modules/
