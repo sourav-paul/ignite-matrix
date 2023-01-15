@@ -7,3 +7,7 @@ export async function GetEss(){
 
     return json;
 }
+
+export async function AddEss(){
+    
+}
