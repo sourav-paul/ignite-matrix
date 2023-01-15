@@ -5,3 +5,4 @@ backend-asp/IgniteMatrix/.idea/
 frontend-vjs/.parcel-cache/
 frontend-vjs/dist/
 frontend-vjs/node_modules/
+backend-py/IgniteMatrix/app/__pycache__/
