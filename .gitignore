@@ -7,3 +7,6 @@ frontend-vjs/dist/
 frontend-vjs/node_modules/
 backend-py/IgniteMatrix/app/__pycache__/
 backend-py/IgniteMatrix/ignite-env/
+/ignite-env/
+backend-py/ignite-env/
+backend-py/app/__pycache__/
