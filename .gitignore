@@ -6,3 +6,4 @@ frontend-vjs/.parcel-cache/
 frontend-vjs/dist/
 frontend-vjs/node_modules/
 backend-py/IgniteMatrix/app/__pycache__/
+backend-py/IgniteMatrix/ignite-env/
