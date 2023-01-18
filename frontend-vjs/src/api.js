@@ -1,15 +1,16 @@
+// base url for the API endpoints
 baseUrl = 'http://127.0.0.1:8000'
 
-export async function GetEss(){
-    let response = await fetch(baseUrl + '/get_ess');
-
-    let json = await response.json();
-
-    AddEss();
-    return json;
+// gets the ESS data from endpoint
+export async function getEss(){
+    let response = await fetch(baseUrl + '/get_ess'); // fetch get request with base and resource path
+    let json = await response.json(); // converts the response to oprateable json
+    return json; 
 }
 
-export async function AddEss(){
+// extra method for future extension
+// adds to the ESS data with a fetch post request
+export async function addEss(){
     let newData = {
         EbitMargin: Math.random() / 100,
         ShapeOfWallet: Math.random() / 100,
