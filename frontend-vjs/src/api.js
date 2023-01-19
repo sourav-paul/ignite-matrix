@@ -12,10 +12,11 @@ export async function getEss(){
 // adds to the ESS data with a fetch post request
 export async function addEss(){
     let newData = {
+        ProviderName: "Random Provider Name",
         EbitMargin: Math.random() / 100,
         ShapeOfWallet: Math.random() / 100,
         Spend: Math.random() * 100000
-    };
+    }; // random data generation for post operation
       
     let response = await fetch(baseUrl +'/add_ess/', {
         method: 'POST',
